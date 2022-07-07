@@ -6,11 +6,11 @@ One of the essential digital logic components of CPUs is the Arithmetic Logic Un
 - division 
 as some of the logic and arithmetic operations.
 
-### OBJECTIVE
+### Objective
 To design an Arithmetic Logic Unit (ALU). It usually performs logical and arithmetic operations. VHDL is used to design and implement an ALU.
 
-### BLOCK DIAGRAM
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+### Block Diagram
+![](https://github.com/Kanishk-K-U/ALU/blob/main/block.png)
 
 ### Implementation 
 - A is forced to 8 Bit input _(A is set to = 0000001)_
@@ -42,7 +42,7 @@ A<B |  0000001 | 0000010 | 11111111
 A=B |  0000001 | 0000010 | 00000000
 
 ### OUTPUT
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Kanishk-K-U/ALU/blob/main/OP.png)
 
 
 
