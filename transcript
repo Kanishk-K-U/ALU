@@ -1,0 +1,53 @@
+# Reading C:/Users/modelsim_ase/tcl/vsim/pref.tcl 
+# do alu.ldo 
+# Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture behavioral of alu
+# vsim -t 1ps alu 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+force -freeze sim:/alu/a 00000001 0
+force -freeze sim:/alu/b 00000010 0
+force -freeze sim:/alu/alu_sel 0000 0
+run
+force -freeze sim:/alu/alu_sel 0001 0
+run
+force -freeze sim:/alu/alu_sel 0010 0
+run
+force -freeze sim:/alu/alu_sel 0011 0
+run
+force -freeze sim:/alu/alu_sel 0100 0
+run
+force -freeze sim:/alu/alu_sel 0101 0
+run
+force -freeze sim:/alu/alu_sel 0110 0
+run
+force -freeze sim:/alu/alu_sel 0111 0
+run
+force -freeze sim:/alu/alu_sel 1000 0
+run
+force -freeze sim:/alu/alu_sel 1001 0
+run
+force -freeze sim:/alu/alu_sel 1010 0
+run
+force -freeze sim:/alu/alu_sel 1011 0
+run
+force -freeze sim:/alu/alu_sel 1100 0
+run
+force -freeze sim:/alu/alu_sel 1101 0
+run
+force -freeze sim:/alu/alu_sel 1110 0
+run
+force -freeze sim:/alu/alu_sel 1111 0

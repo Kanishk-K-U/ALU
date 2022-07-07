@@ -1,0 +1,54 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Harish/Desktop/ALU/ALU.vhd" in Library work.
+ERROR:HDLParsers:164 - "C:/Users/Harish/Desktop/ALU/ALU.vhd" Line 15. parse error, unexpected FUNCTION, expecting IDENTIFIER
+WARNING:HDLParsers:3481 - Library work has no units. Did not save reference file "xst/work/hdllib.ref" for it.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Harish/Desktop/ALU/ALU.vhd" in Library work.
+Entity <ALU> compiled.
+Entity <ALU> (Architecture <Behavioral>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
